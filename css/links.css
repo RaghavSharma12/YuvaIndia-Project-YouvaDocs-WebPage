@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior:auto;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 94%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 9rem;
+    margin: -27px 6px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 6px 27px;
+    border-radius: 47px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    /* background: url('/img/bg\ links2.jpg') no-repeat center center/cover; */
+    background-color: #9bd0e8;
+    height: 360rem;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#home h1{
+    color: #494c4a;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    position: absolute;
+    top: 3rem;
+    font-size: 5rem;
+
+
+}
+
+#home p{
+    color: #20312e;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+    position: absolute;
+    top: 18rem;
+    padding: 3px 10px
+
+}
+footer{
+    font-family: 'Bree Serif', serif;
+    background: black;
+    color: white;
+    padding: 5px 20px;
+    position: relative;
+    top: 4remrem;
+
+}
+.center{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 0px;
+    margin: 7px 2px;
+}
+#services{
+    margin: -2rem 0rem;
+    display:block;
+    /* background-color: #ddf7e5; */
+    width: 100%;
+    
+}
+#services .box{ 
+    border: 2px solid rgb(40, 212, 34);
+    padding: 34px;
+    margin: 187px 10px;
+    border-radius: 28px;
+    background: #d9f0f4;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 2rem;
+    width: 80rem;
+    top: -36rem;
+    height: 64rem;
+    left: 4.5rem;
+    right: 6rem;
+}
+
+#services .box img{ 
+    height: 221px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+.tut p{
+    font-family: 'Bree Serif', serif;
+    color: #20312e;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+    position: absolute;
+    top: 29rem;
+    padding: 3px 10px;
+}
+.tut .web{
+    font-family: 'Bree Serif', serif;
+    color: #20312e;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+    position: absolute;
+    top: 35rem;
+    padding: 3px 10px;
+}
+.youtube{
+    position: relative;
+    top: 15rem;
+    left: 30%;
+}
+    .para p{
+        color: #20312e;
+        font-size: 20px; 
+    }
